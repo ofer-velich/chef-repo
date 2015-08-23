@@ -1,0 +1,10 @@
+site :opscode
+
+cookbook 'apt'
+cookbook 'locale-gen', '= 0.0.1'
+cookbook 'apache2'
+cookbook 'php'
+cookbook 'java'
+cookbook 'redisio', '~> 2.2.4'
+cookbook 'nodejs', '~> 2.2.0'
+cookbook 'newrelic', '= 1.0.3'

@@ -1,0 +1,12 @@
+
+# load the bashrc if found, (it wont be loaded when running over ssh)
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+# load extensions if exist. 
+[[ -s "~/bin/alias.sh" ]] &&  source "~/bin/alias.sh"
+
+[[ -s "~/bin/paths.sh" ]] &&  source "~/bin/paths.sh"
+
+[[ -s "~/bin/exports.sh" ]] &&  source "~/bin/exports.sh"

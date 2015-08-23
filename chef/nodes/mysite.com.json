@@ -1,0 +1,8 @@
+{
+    "run_list": [
+        "role[webfront]"
+    ],
+    "automatic": {
+        "ipaddress": "localhost"
+    }
+}
